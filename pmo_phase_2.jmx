@@ -84,12 +84,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="JSESSIONID" elementType="Argument">
             <stringProp name="Argument.name">JSESSIONID</stringProp>
-            <stringProp name="Argument.value">s%3AcWglJ8wPwZQW2kFU32XetZk1jup-W2tD.9SjqxfNoEMXtq5dzkofBoZWPgyIy7IJy7OPFhRCpnwQ</stringProp>
+            <stringProp name="Argument.value">${__P(jsessionid,s%3A-khYpW3rnZ0jLgSvqUcIyfhq-ZWT4-_A.otvqfjM3s0mFzoxedYXgqnzTaTJ3axzdq1HW17pjtMw)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="__VCAP_ID__" elementType="Argument">
             <stringProp name="Argument.name">__VCAP_ID__</stringProp>
-            <stringProp name="Argument.value">9c19ced2-1896-4718-4924-a130</stringProp>
+            <stringProp name="Argument.value">${__P(vcap_id,9c19ced2-1896-4718-4924-a130)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="URL" elementType="Argument">
@@ -4804,15 +4804,14 @@ vars.put(&quot;payload&quot;, payloadJson)</stringProp>
         <stringProp name="ThreadGroup.ramp_time">${rampUp}</stringProp>
         <stringProp name="ThreadGroup.duration">${testTime}</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-        <boolProp name="ThreadGroup.scheduler">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <intProp name="LoopController.loops">-1</intProp>
+          <stringProp name="LoopController.loops">1</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="1.0 SSFF PMO_REING_Employee_Editing_FilteredEmpolyees" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="1.0 SSFF PMO_REING_Employee_Editing_FilteredEmpolyees">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -7320,7 +7319,7 @@ if (manager != null) {
         </DebugSampler>
         <hashTree/>
       </hashTree>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Error - View Results Tree">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Error - View Results Tree" enabled="false">
         <boolProp name="ResultCollector.error_logging">true</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -7357,7 +7356,7 @@ if (manager != null) {
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -7394,7 +7393,7 @@ if (manager != null) {
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report">
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
