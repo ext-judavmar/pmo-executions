@@ -5,76 +5,10 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
-      <boolProp name="TestPlan.functional_mode">false</boolProp>
-      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
     </TestPlan>
     <hashTree>
       <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP CookieManager">
-        <collectionProp name="CookieManager.cookies">
-          <elementProp name="_ga" elementType="Cookie" testname="_ga">
-            <stringProp name="Cookie.value">GA1.1.801075200.1742922794</stringProp>
-            <stringProp name="Cookie.domain">mercado-libre-s-r-l--ssff-extensions-mercadot-gm74ea26-537e3fad.cfapps.us10-001.hana.ondemand.com</stringProp>
-            <stringProp name="Cookie.path">/api/v1/batch/batchRequest</stringProp>
-            <boolProp name="Cookie.secure">false</boolProp>
-            <longProp name="Cookie.expires">0</longProp>
-            <boolProp name="Cookie.path_specified">true</boolProp>
-            <boolProp name="Cookie.domain_specified">true</boolProp>
-          </elementProp>
-          <elementProp name="_ga_6KVMZY0DHD" elementType="Cookie" testname="_ga_6KVMZY0DHD">
-            <stringProp name="Cookie.value">GS2.1.s1754321926$o13$g0$t1754321926$j60$l0$h1221822700</stringProp>
-            <stringProp name="Cookie.domain">mercado-libre-s-r-l--ssff-extensions-mercadot-gm74ea26-537e3fad.cfapps.us10-001.hana.ondemand.com</stringProp>
-            <stringProp name="Cookie.path">/api/v1/batch/batchRequest</stringProp>
-            <boolProp name="Cookie.secure">false</boolProp>
-            <longProp name="Cookie.expires">0</longProp>
-            <boolProp name="Cookie.path_specified">true</boolProp>
-            <boolProp name="Cookie.domain_specified">true</boolProp>
-          </elementProp>
-          <elementProp name="__VCAP_ID__" elementType="Cookie" testname="__VCAP_ID__">
-            <stringProp name="Cookie.value">9c07567d-f188-425e-4199-8ac8</stringProp>
-            <stringProp name="Cookie.domain">mercado-libre-s-r-l--ssff-extensions-mercadot-gm74ea26-537e3fad.cfapps.us10-001.hana.ondemand.com</stringProp>
-            <stringProp name="Cookie.path">/api/v1/batch/batchRequest</stringProp>
-            <boolProp name="Cookie.secure">false</boolProp>
-            <longProp name="Cookie.expires">0</longProp>
-            <boolProp name="Cookie.path_specified">true</boolProp>
-            <boolProp name="Cookie.domain_specified">true</boolProp>
-          </elementProp>
-          <elementProp name="JTENANTSESSIONID_i34gi168xx" elementType="Cookie" testname="JTENANTSESSIONID_i34gi168xx">
-            <stringProp name="Cookie.value">%2BIgNkGhETn4VQfU9nFwUtmaIrW0PaDNFwn24qDQ7qYw%3D</stringProp>
-            <stringProp name="Cookie.domain">mercado-libre-s-r-l--ssff-extensions-mercadot-gm74ea26-537e3fad.cfapps.us10-001.hana.ondemand.com</stringProp>
-            <stringProp name="Cookie.path">/api/v1/batch/batchRequest</stringProp>
-            <boolProp name="Cookie.secure">false</boolProp>
-            <longProp name="Cookie.expires">0</longProp>
-            <boolProp name="Cookie.path_specified">true</boolProp>
-            <boolProp name="Cookie.domain_specified">true</boolProp>
-          </elementProp>
-          <elementProp name="__VCAP_ID__" elementType="Cookie" testname="__VCAP_ID__">
-            <stringProp name="Cookie.value">83d4cf16-a00f-416a-6692-8dcc</stringProp>
-            <stringProp name="Cookie.domain">mercado-libre-s-r-l--ssff-extensions-mercadot-gm74ea26-537e3fad.cfapps.us10-001.hana.ondemand.com</stringProp>
-            <stringProp name="Cookie.path">/api/v1/template/viewFields/1</stringProp>
-            <boolProp name="Cookie.secure">false</boolProp>
-            <longProp name="Cookie.expires">0</longProp>
-            <boolProp name="Cookie.path_specified">true</boolProp>
-            <boolProp name="Cookie.domain_specified">true</boolProp>
-          </elementProp>
-          <elementProp name="__VCAP_ID__" elementType="Cookie" testname="__VCAP_ID__">
-            <stringProp name="Cookie.value">83d4cf16-a00f-416a-6692-8dcc</stringProp>
-            <stringProp name="Cookie.domain">mercado-libre-s-r-l--ssff-extensions-mercadot-gm74ea26-537e3fad.cfapps.us10-001.hana.ondemand.com</stringProp>
-            <stringProp name="Cookie.path">/api/v1/home</stringProp>
-            <boolProp name="Cookie.secure">false</boolProp>
-            <longProp name="Cookie.expires">0</longProp>
-            <boolProp name="Cookie.path_specified">true</boolProp>
-            <boolProp name="Cookie.domain_specified">true</boolProp>
-          </elementProp>
-          <elementProp name="__VCAP_ID__" elementType="Cookie" testname="__VCAP_ID__">
-            <stringProp name="Cookie.value">83d4cf16-a00f-416a-6692-8dcc</stringProp>
-            <stringProp name="Cookie.domain">mercado-libre-s-r-l--ssff-extensions-mercadot-gm74ea26-537e3fad.cfapps.us10-001.hana.ondemand.com</stringProp>
-            <stringProp name="Cookie.path">/api/v1/home/requestLog</stringProp>
-            <boolProp name="Cookie.secure">false</boolProp>
-            <longProp name="Cookie.expires">0</longProp>
-            <boolProp name="Cookie.path_specified">true</boolProp>
-            <boolProp name="Cookie.domain_specified">true</boolProp>
-          </elementProp>
-        </collectionProp>
+        <collectionProp name="CookieManager.cookies"/>
         <stringProp name="TestPlan.comments">Created from cURL on 2025-09-10T10:22:17.4474352</stringProp>
         <boolProp name="CookieManager.clearEachIteration">false</boolProp>
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
@@ -84,12 +18,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="JSESSIONID" elementType="Argument">
             <stringProp name="Argument.name">JSESSIONID</stringProp>
-            <stringProp name="Argument.value">${__P(jsessionid,s%3AnWewpDqNOhPGdrFmnn3P_rvGUgfLCk_5.jBBt%2BhjmtsyYjWp2DfMkunr0qFddeeDyL6BfDvtmUy4)}</stringProp>
+            <stringProp name="Argument.value">${__P(jsessionid,s%3AmVu0pZ8gU1I4_DwqNQeRwLxjK_wTamgQ.bxjQqxWVYp4qrK6xk0ctma0roa2FYP8FueR3lldkjMA)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="__VCAP_ID__" elementType="Argument">
             <stringProp name="Argument.name">__VCAP_ID__</stringProp>
-            <stringProp name="Argument.value">${__P(vcap_id,9c19ced2-1896-4718-4924-a130)}</stringProp>
+            <stringProp name="Argument.value">${__P(vcap_id,c35291e2-e52f-4f8f-4c5b-fe8e)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="URL" elementType="Argument">
@@ -99,12 +33,12 @@
           </elementProp>
           <elementProp name="virtualUsers" elementType="Argument">
             <stringProp name="Argument.name">virtualUsers</stringProp>
-            <stringProp name="Argument.value">${__P(virtualUsers,5)}</stringProp>
+            <stringProp name="Argument.value">${__P(virtualUsers,10)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="rampUp" elementType="Argument">
             <stringProp name="Argument.name">rampUp</stringProp>
-            <stringProp name="Argument.value">${__P(rampUp,10)}</stringProp>
+            <stringProp name="Argument.value">${__P(rampUp,20)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="testTime" elementType="Argument">
@@ -4812,7 +4746,7 @@ vars.put(&quot;payload&quot;, payloadJson)</stringProp>
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="1.0 SSFF PMO_REING_Employee_Editing_FilteredEmpolyees">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="1.0 SSFF PMO_REING_Employee_Editing_FilteredEmpolyees" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -7354,6 +7288,80 @@ if (manager != null) {
             <connectTime>true</connectTime>
           </value>
         </objProp>
+        <stringProp name="filename">C:\Users\juandavid.martinez\Desktop\MELI\Performance\PMO\PMO_FASE_2\PMOF2_Results\NewAppPMOFase2\ERROR-PMOF2_20VU-10min-Sept_123.jtl</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename">C:\Users\juandavid.martinez\Desktop\MELI\Performance\PMO\PMO_FASE_2\PMOF2_Results\NewAppPMOFase2\PMOF2_20VU-10min-Sept_23.jtl</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Error - View Results Tree" enabled="false">
+        <boolProp name="ResultCollector.error_logging">true</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
@@ -7441,7 +7449,7 @@ if (manager != null) {
             </elementProp>
             <elementProp name="influxdbUrl" elementType="Argument">
               <stringProp name="Argument.name">influxdbUrl</stringProp>
-              <stringProp name="Argument.value">http://influxdb:8086/write?db=jmeter</stringProp>
+              <stringProp name="Argument.value">http://localhost:8086/write?db=influxdb</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="application" elementType="Argument">
@@ -7481,12 +7489,12 @@ if (manager != null) {
             </elementProp>
             <elementProp name="password" elementType="Argument">
               <stringProp name="Argument.name">password</stringProp>
-              <stringProp name="Argument.value">admin</stringProp>
+              <stringProp name="Argument.value">password1</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="user" elementType="Argument">
               <stringProp name="Argument.name">user</stringProp>
-              <stringProp name="Argument.value">admin</stringProp>
+              <stringProp name="Argument.value">croco</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
